@@ -1,0 +1,16 @@
+<openerp>
+	<data>
+		<!-- record ui view -->
+		<record id="sale_os" model="ir.ui.view">
+			<field name="name">sale_os</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form" />
+			<field name="arch" type="xml">
+				<field name="client_order_ref" position="after">
+					<field name="customer_po_no" />
+					<field name="order_sheet_no" />
+				</field>
+			</field>
+		</record>
+	</data>
+</openerp>
