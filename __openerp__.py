@@ -9,7 +9,7 @@
 	"author": "Primeforce", 
 	"category": "Sales", 
 	"description": "Penambahan Field",
-	"data": ["sale.xml","stock.xml"], 
+	"data": ["sale.xml","stock.xml","product.xml"], 
 	"installable": True,
 	"auto_install": False,
 }
